@@ -1,5 +1,5 @@
 .vs/
-*.filters
+
 *.user
 x64/*
 SeaBattle/x64/*
