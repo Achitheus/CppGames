@@ -11,4 +11,11 @@ int View::reqNumbOfPlayers()
 
 }
 
+void View::reqNamesOfPlayers(std::string&, std::string&)
+{
+
+}
+
+
+
 

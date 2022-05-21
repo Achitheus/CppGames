@@ -11,7 +11,9 @@ public:
 		
 
 	}
-	void initGame();
+	
 	void startGame();
 };
+
+void initGame();
 

@@ -5,6 +5,6 @@ class View
 {
 public:
 	int reqNumbOfPlayers();
-	
+	void reqNamesOfPlayers(std::string&, std::string&);
 };
 
