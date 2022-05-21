@@ -1,6 +1,10 @@
 #include "GameEngine.h"
 
-void GameEngine::initGame()
+void initGame()
 {
-	view.reqNumbOfPlayers();
+	View view;
+	unsigned int numbOfPlayers;
+	numbOfPlayers = view.reqNumbOfPlayers();
+	std::string name1stPl, name2ndPl;
+	view.reqNamesOfPlayers(name1stPl, name2ndPl);
 }
