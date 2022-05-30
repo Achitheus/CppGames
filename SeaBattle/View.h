@@ -4,7 +4,8 @@
 class View
 {
 public:
-	int reqNumbOfPlayers();
-	void reqNamesOfPlayers(std::string&, std::string&);
+	bool isMultiplayer();
+	std::string& const getPlayerName();
+	void getNamesOfPlayers(std::string & name1, std::string & name2);
 };
 

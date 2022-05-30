@@ -1,10 +1,22 @@
 #include "GameEngine.h"
 
-void initGame()
+
+GameEngine::GameEngine() : view(View()) {
+	bool isMultiplayer = view.isMultiplayer();
+	if (isMultiplayer) {
+		std::string name1stPl, name2ndPl;
+		view.getNamesOfPlayers(name1stPl, name2ndPl);
+	}
+	else {
+
+	}
+	
+	
+	
+	//gameSession = GameSession(numbOfPlayers, );
+}
+
+void GameEngine::initGame()
 {
-	View view;
-	unsigned int numbOfPlayers;
-	numbOfPlayers = view.reqNumbOfPlayers();
-	std::string name1stPl, name2ndPl;
-	view.reqNamesOfPlayers(name1stPl, name2ndPl);
+	
 }

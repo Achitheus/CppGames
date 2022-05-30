@@ -2,18 +2,20 @@
 #include "View.h"
 #include "GameSession.h"
 
+
+
 class GameEngine
 {
 	View view;
 	GameSession gameSession;
-public:
-	GameEngine(): view(View()), gameSession(GameSession()) {
-		
 
-	}
+public:
+	GameEngine();
 	
+	void initGame();
 	void startGame();
+	
 };
 
-void initGame();
+
 
