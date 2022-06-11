@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BattleField.cpp" />
+    <ClCompile Include="Bot.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="GameSession.cpp" />
     <ClCompile Include="SeaBattle.cpp" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BattleField.h" />
+    <ClInclude Include="Bot.h" />
     <ClInclude Include="Cell.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="GameSession.h" />

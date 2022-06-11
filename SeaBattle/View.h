@@ -4,8 +4,8 @@
 class View
 {
 public:
-	bool isMultiplayer();
-	std::string& const getPlayerName();
+	bool enemyIsBot();
+	std::string getPlayerName();
 	void getNamesOfPlayers(std::string & name1, std::string & name2);
 };
 

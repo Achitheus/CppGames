@@ -10,6 +10,7 @@ class Cell {
 	int y;
 	bool hited;
 	Ship* ship;
+
 	int stoi(std::string) {
 
 	};

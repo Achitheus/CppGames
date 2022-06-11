@@ -1,6 +1,6 @@
 #include "View.h"
 
-bool View::isMultiplayer()
+bool View::enemyIsBot()
 {
 	int playersCount;
 	std::cout << "Enter count of players (1 or 2): "; std::cin >> playersCount;
@@ -8,12 +8,12 @@ bool View::isMultiplayer()
 		throw std::invalid_argument("MyFunc argument too large.");
 	}
 	if (playersCount == 2) {
-		return true;
+		return false;
 	}
-	return false;
+	return true;
 }
 
-std::string& const View::getPlayerName()
+std::string View::getPlayerName()
 {
 	std::string name;
 	std::cout << "please enter your name" << std::endl;
